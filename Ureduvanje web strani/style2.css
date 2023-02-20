@@ -1,0 +1,92 @@
+body {background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;}
+.naslov {
+    display: flex; 
+    justify-content: center;
+}
+.header {overflow: hidden;
+background-color: #333;
+border-radius: 12px;
+}
+.header a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown { float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.header a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255,0,51);
+    border-radius: 12px;
+}
+.pulldown {display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 12px;
+}
+.pulldown a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.pulldown a:hover {
+    background-color: rgb(177, 177, 177);
+}
+.dropdown:hover .pulldown {
+    display: block;
+}
+.dres{
+    width: 35%;
+    background-color: rgb(223, 223, 223);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(158, 158, 158);
+}
+.divdres{ 
+    display: flex;
+    justify-content: center;
+}
+.divinfo{
+    display: grid;
+    align-items: center;
+    
+    border-left: none;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.price{
+    display: flex;
+    justify-content: space-evenly;
+}
+.select-size{
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#size{
+    border: none;
+    margin-left: 10px;
+    padding: 5px 20px;
+}
